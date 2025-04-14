@@ -1,0 +1,41 @@
+:root{
+    --fundo: #ffffff;
+    --cor: #000000;
+}
+
+
+.light {
+    background-color: var(--fundo);
+    color: #000000;
+    
+    .box{
+        background-color: red;
+        border: 1px solid #ccc;
+    }
+
+    #header{
+        background-color: #ffffff;
+    }
+
+    #menu-mobile-links{
+        background-color: #ffffff;
+    }
+}
+
+.dark {
+    background-color: #000000;
+    color: #ffffff;
+    
+    .box{
+        background-color: blue;
+        border: 1px solid #ccc;
+    }
+
+    #header{
+        background-color: #000000;
+    }
+
+    #menu-mobile-links{
+        background-color: #000000;
+    }
+}
