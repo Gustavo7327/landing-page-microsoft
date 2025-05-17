@@ -3,6 +3,23 @@
     --cor: #000000;
 }
 
+#vagas_button{
+    background-color: #80cc28;
+}
+
+.title{
+    color: #f1511b;
+}
+
+.hero-btn{
+    background-color: #80cc28;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #ffffff; 
+    box-shadow: none;
+}
 
 .light {
     background-color: var(--fundo);
